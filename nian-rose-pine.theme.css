@@ -1,0 +1,235 @@
+/**
+* slighty modified for personal use
+* ---------------------------------
+*
+*
+* @name Rosé Pine Moon
+* @author 3nfg/HuCares_
+* @authorId 637120137828237322
+* @version 4.0.0
+* @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+* @source https://github.com/rose-pine/discord
+* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine-moon.theme.css
+*/
+
+
+
+.theme-dark {
+    --back: #191726;
+    --text-channels: #d1caff;
+    --code-background: #3f274652;
+    --menu-item-default-hover-bg: #232136;
+    --menu-item-default-active-bg: #393552;
+    --button-secondary-background: #2a273f;
+    --button-secondary-background-hover: #232136;
+    --ping: #eb6f92;
+    --input-background: #393552;
+    --home-background: #232136;
+    --background-modifier-hover: #44415a;
+    --background-modifier-selected: #393552;
+    --background-modifier-active: #393552;
+    --bg-mod-faint: #2a273f;
+    --bg-surface-raised: #2a273f;
+    --background-message-highlight: #907aa933;
+    --background-message-highlight-hover: #907aa922;
+    --background-mentioned: #907aa933;
+    --background-mentioned-hover: #907aa922;
+    --info-warning-foreground: #907aa9;
+    --bg-surface-overlay: #393552;
+    --background-primary: #232136;
+    --background-secondary: #2a273f;
+    --background-secondary-alt: #393552;
+    --modal-background: #2a273f;
+    --modal-footer-background: #393552;
+    --channeltextarea-background: #2a273f;
+    --deprecated-card-bg: #2a273f;
+    --deprecated-card-editable-bg: #2a273f;
+    --activity-card-background: #393552;
+    --background-tertiary: #393552;
+    --background-accent: #ea9a97;
+    --text-normal: #e0def4;
+    --text-spotify: #e0def4;
+    --text-muted: #6e6a86;
+    --text-link: #3e8fb0;
+    --background-floating: #2a273f;
+    --header-primary: #e0def4;
+    --header-secondary: #e0def4;
+    --header-spotify: #9ccfd8;
+    --interactive-normal: #e0def4;
+    --interactive-hover: #6e6a86;
+    --interactive-active: #e0def4;
+    --scrollbar-thin-thumb: #393552;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #393552;
+    --scrollbar-auto-track: transparent;
+}
+
+.theme-light {
+    --back: #100e1f;
+    --text-channels: #0a060f;
+    --code-background: #e1d8f1;
+    --menu-item-default-hover-bg: #fff;
+    --menu-item-default-active-bg: #f2e9e1;
+    --button-secondary-background: #fffaf3;
+    --button-secondary-background-hover: #faf4ed;
+    --ping: #b4637a;
+    --input-background: #d3d0ce;
+    --home-background: #faf4ed;
+    --background-modifier-hover: #dfdad9;
+    --background-modifier-selected: #f2e9e1;
+    --background-modifier-active: #f2e9e1;
+    --bg-mod-faint: #fffaf3;
+    --bg-surface-raised: #fffaf3;
+    --background-message-highlight: #c4a7e729;
+    --background-message-highlight-hover: #865ec6;
+    --background-mentioned: #c4a7e733;
+    --background-mentioned-hover: #c4a7e722;
+    --info-warning-foreground: #c4a7e7;
+    --bg-surface-overlay: #f2e9e1;
+    --background-primary: #e1d9f7;
+    --background-secondary: #d3c9f6;
+    --background-secondary-alt: #bbb1c9;
+    --modal-background: #ede5da;
+    --modal-footer-background: #fff;
+    --channeltextarea-background: #f3f1f6;
+    --deprecated-card-bg: #fff;
+    --deprecated-card-editable-bg: #fffaf3;
+    --activity-card-background: #f2e9e1;
+    --background-tertiary: #c5aefb;
+    --background-accent: #dbd3d3;
+    --text-normal: #00317f;
+    --text-spotify: #0000d9;
+    --text-muted: #150232;
+    --text-link: #0228ff;
+    --background-floating: #fffaf3;
+    --header-primary: #8980c5;
+    --header-secondary: #5e02df;
+    --header-spotify: #36aabe;
+    --interactive-normal: #9c76ed;
+    --interactive-hover: #6a617e;
+    --interactive-active: #5b548e;
+    --scrollbar-thin-thumb: #f2e9e1;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #f2e9e1;
+    --scrollbar-auto-track: transparent;
+}
+
+.appMount_ea7e65 {
+    color: beige;
+}
+
+.name_d8bfb3 {
+    color: var(--text-channels) !important;
+}
+
+code {
+    background-color: var(--code-background) !important;
+}
+
+.nameAndDecorators_d808b0,
+.username_f9f2ca {
+    background-color: var(--back);
+    border-radius: 15px;
+    padding: 1px 6px;
+    border: 3px solid var(--interactive-normal);
+
+}
+
+.username_f9f2ca {
+    display: inline-flex;
+}
+
+.mainCard__0ec2c {
+    background-color: var(--background-secondary) !important;
+}
+
+.body-2wLx-E,
+.headerTop-3GPUSF,
+.bodyInnerWrapper-2bQs1k,
+.footer-3naVBw,
+.panels-3wFtMD {
+    background-color: var(--background-tertiary) !important;
+}
+
+.peopleColumn-1wMU14,
+.panels-j1Uci_,
+.peopleColumn-29fq28,
+.peopleList-2VBrVI,
+.content-2hZxGK,
+.header-1zd7se,
+.root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3 {
+    background-color: var(--background-secondary) !important;
+}
+
+.textArea-12jD-V,
+.lookBlank-3eh9lL,
+.threadSidebar-1o3BTy,
+.scrollableContainer-2NUZem,
+.perksModalContentWrapper-3RHugb,
+.theme-dark .footer-31IekZ,
+.theme-light .footer-31IekZ {
+    background-color: var(--background-tertiary) !important;
+}
+
+.numberBadge-2s8kKX,
+.base-PmTxvP,
+.baseShapeRound-1Mm1YW,
+.bar-30k2ka,
+.unreadMentionsBar-1Bu1dC,
+.mention-1f5kbO,
+.active-1SSsBb,
+.disableButton-220a9y {
+    background-color: var(--ping) !important;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--ping) !important;
+}
+
+.header-3OsQeK,
+.container-ZMc96U {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.content-1gYQeQ,
+.layout-1qmrhw,
+.inputDefault-3FGxgL,
+.input-2g-os5,
+.input-2z42oC,
+.role-2TIOKu,
+.searchBar-jGtisZ {
+    border-radius: 6px !important;
+}
+
+.layout-1qmrhw:hover,
+.content-1gYQeQ:hover,
+.friendSelected_ebf869 {
+    background-color: var(--background-modifier-selected) !important;
+}
+
+.panels_a4d4d9,
+.container_b2ca13 {
+    background-color: inherit !important;
+}
+
+.container_e5a42d {
+    background: unset !important;
+    border: unset !important;
+}
+
+.custom-profile-theme .colorPrimary_dd4f85 {
+    color: var(--white) !important;
+}
+
+.lookFilled_dd4f85.colorPrimary_dd4f85 {
+    color: var(--text-normal);
+}
+
+.colorDefault_d90b3d {
+    color: var(--text-normal) !important;
+}
+
+.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
+    color: var(--text-normal) !important;
+}
