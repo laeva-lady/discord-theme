@@ -1,17 +1,17 @@
 /**
-* slighty modified for personal use
-* ---------------------------------
-*
-*
-* @name Rosé Pine Moon
-* @author 3nfg/HuCares_
-* @authorId 637120137828237322
-* @version 4.0.0
-* @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
-* @source https://github.com/rose-pine/discord
-* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine-moon.theme.css
+* Rose pine theme modified for personal use
+* -----------------------------------------
+* source: https://github.com/rose-pine/discord
 */
 
+
+body {
+    font-family: "Noto Sans JP";
+}
+.nameAndDecorators_d808b0,
+.username_f9f2ca {
+    font-family: "KaiTi";
+}
 
 
 .theme-dark {
