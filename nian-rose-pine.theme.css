@@ -4,65 +4,53 @@
 * source: https://github.com/rose-pine/discord
 */
 
-
-body {
-    font-family: "Noto Sans JP";
-}
-
-.nameAndDecorators_d808b0,
-.username_f9f2ca {
-    font-size: 1.1em;
-    font-family: "KaiTi";
-}
-
-
 .theme-dark {
-    --back: #191726;
+    --back: #191726db;
     --text-channels: #d1caff;
-    --code-background: #3f274652;
+    --code-background: #3f2746e3;
     --menu-item-default-hover-bg: #232136;
     --menu-item-default-active-bg: #393552;
     --button-secondary-background: #2a273f;
-    --button-secondary-background-hover: #232136;
-    --ping: #eb6f92;
-    --input-background: #393552;
-    --home-background: #232136;
-    --background-modifier-hover: #44415a;
-    --background-modifier-selected: #393552;
-    --background-modifier-active: #393552;
-    --bg-mod-faint: #2a273f;
-    --bg-surface-raised: #2a273f;
-    --background-message-highlight: #907aa933;
-    --background-message-highlight-hover: #907aa922;
-    --background-mentioned: #907aa933;
-    --background-mentioned-hover: #907aa922;
-    --info-warning-foreground: #907aa9;
-    --bg-surface-overlay: #393552;
-    --background-primary: #232136;
-    --background-secondary: #2a273f;
-    --background-secondary-alt: #393552;
-    --modal-background: #2a273f;
-    --modal-footer-background: #393552;
-    --channeltextarea-background: #2a273f;
-    --deprecated-card-bg: #2a273f;
-    --deprecated-card-editable-bg: #2a273f;
-    --activity-card-background: #393552;
-    --background-tertiary: #393552;
-    --background-accent: #ea9a97;
+    --button-secondary-background-hover: #232136aa;
+    --ping: #eb6f9255;
+    --input-background: #39355297;
+    --home-background: #23213693;
+    --background-modifier-hover: #44415a55;
+    --background-modifier-selected: #39355255;
+    --background-modifier-active: #39355255;
+    --bg-mod-faint: #2a273f55;
+    --bg-surface-raised: #2a273f55;
+    --background-message-highlight: #907aa93355;
+    --background-message-highlight-hover: #907aa92255;
+    --background-mentioned: #907aa93355;
+    --background-mentioned-hover: #907aa92255;
+    --info-warning-foreground: #907aa955;
+    --bg-surface-overlay: #393552bd;
+    --background-primary: #23213687;
+    --background-secondary: #2a273f64;
+    --background-secondary-alt: #39355255;
+    --modal-background: #2a273f3f;
+    --modal-footer-background: #39355255;
+    --channeltextarea-background: #2a273f55;
+    --deprecated-card-bg: #2a273f55;
+    --deprecated-card-editable-bg: #2a273f55;
+    --activity-card-background: #39355255;
+    --background-tertiary: #45415b07;
+    --background-accent: #ffffff00;
     --text-normal: #e0def4;
     --text-spotify: #e0def4;
     --text-muted: #6e6a86;
-    --text-link: #3e8fb0;
+    --text-link: #3e90b0;
     --background-floating: #2a273f;
-    --header-primary: #e0def4;
-    --header-secondary: #e0def4;
-    --header-spotify: #9ccfd8;
-    --interactive-normal: #e0def4;
-    --interactive-hover: #6e6a86;
-    --interactive-active: #e0def4;
-    --scrollbar-thin-thumb: #393552;
+    --header-primary: #e0def455;
+    --header-secondary: #e0def455;
+    --header-spotify: #9ccfd855;
+    --interactive-normal: #e0def455;
+    --interactive-hover: #6e6a8655;
+    --interactive-active: #e0def455;
+    --scrollbar-thin-thumb: #39355255;
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #393552;
+    --scrollbar-auto-thumb: #39355255;
     --scrollbar-auto-track: transparent;
 }
 
@@ -114,6 +102,29 @@ body {
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: #f2e9e1;
     --scrollbar-auto-track: transparent;
+}
+
+body {
+    font-family: "Noto Sans JP";
+    background: rgba(0, 0, 0, 0);
+    background: url("https://raw.githubusercontent.com/Nian0bussou/discord-theme/main/_10710cdadd80d8a4f6b42345da1239ec34133.jpg") center/cover no-repeat !important;
+    background-size: cover !important;
+
+}
+
+/*
+    .bg_d4b6c5,
+    .directoryContainer_da3f59:before,
+    .header_bd05f1:before {
+        background: url("https://raw.githubusercontent.com/Nian0bussou/discord-theme/main/_10710cdadd80d8a4f6b42345da1239ec34133.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+*/
+
+.nameAndDecorators_d808b0,
+.username_f9f2ca {
+    font-size: 1.1em;
+    font-family: "KaiTi";
 }
 
 .appMount_ea7e65 {
@@ -235,3 +246,67 @@ code {
 .colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
     color: var(--text-normal) !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Transparency section & background image        */
+nav[class*="guilds-"] {
+    background: transparent;
+}
+ul[data-list-id='guildsnav'] {
+	background-color: rgba(0,0,0 , 0.6);
+}
+#app-mount [data-list-item-id="guildsnav___home"]>div {
+	color: transparent;
+	background-color: transparent;
+}
+.platform-win [class^="sidebar-"] {
+	border-radius: 0;
+    background-color: transparent;
+}
+.container-2o3qEW {
+    background: rgb(0,0,0 , 0.9);
+}
+div[data-list-id^="members-"][class*="scrollerBase-"] {
+    background: transparent;
+}
+
+div[class^="members-"] div[class^="member-"] {
+    background-color: transparent;
+}
+#app-mount {
+    background-color: transparent;
+}
+#app-mount>div[class^="appDevToolsWrapper-"] {
+	background-color: rgba(0,0,0 , 0.4);
+}
+
+div[class^="notAppAsidePanel-"]>div[class^="app-"]>div[class^="app-"],
+div[class^="app-"]>div[class^="bg-"] {
+    background-color: transparent;
+}
+div[class*="baseLayer-"]>div[class^="container-"] {
+    background-color: rgb(0,0,0 , 0.4);
+}
+
+div[class^='chat'] {
+    background: transparent;
+}
+
+div[data-list-id^="members-"],
+div[data-list-id^="members-"]>div {
+	background-color: transparent !important;
+}
+/* Transparency section & background image  (END) */
