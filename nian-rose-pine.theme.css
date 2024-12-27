@@ -68,14 +68,14 @@
     --background-modifier-active: #f2e9e1;
     --bg-mod-faint: #fffaf3;
     --bg-surface-raised: #fffaf3;
-    --background-message-highlight: #c4a7e729;
+    --background-message-highlight: #c4a7e79c;
     --background-message-highlight-hover: #865ec6;
     --background-mentioned: #c4a7e733;
     --background-mentioned-hover: #c4a7e722;
     --info-warning-foreground: #c4a7e7;
     --bg-surface-overlay: #f2e9e1;
-    --background-primary: #e1d9f7;
-    --background-secondary: #d3c9f6;
+    --background-primary: #a391d2;
+    --background-secondary: #9986dd;
     --background-secondary-alt: #bbb1c9;
     --modal-background: #ede5da;
     --modal-footer-background: #fff;
@@ -83,7 +83,7 @@
     --deprecated-card-bg: #fff;
     --deprecated-card-editable-bg: #fffaf3;
     --activity-card-background: #f2e9e1;
-    --background-tertiary: #c5aefb;
+    --background-tertiary: #7661a7;
     --background-accent: #dbd3d3;
     --text-normal: #00317f;
     --text-spotify: #0000d9;
@@ -93,8 +93,8 @@
     --header-primary: #8980c5;
     --header-secondary: #5e02df;
     --header-spotify: #36aabe;
-    --interactive-normal: #9c76ed;
-    --interactive-hover: #6a617e;
+    --interactive-normal: #3c2965;
+    --interactive-hover: #776b91;
     --interactive-active: #5b548e;
     --scrollbar-thin-thumb: #f2e9e1;
     --scrollbar-thin-track: transparent;
@@ -120,6 +120,7 @@ body {
     color: beige;
 }
 
+.title_b97bdb,
 .name_d8bfb3 {
     color: var(--text-channels) !important;
 }
