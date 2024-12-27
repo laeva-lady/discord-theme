@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New&display=swap');
+
 
 .theme-dark {
     --back: #191726db;
@@ -107,19 +110,10 @@ body {
 
 }
 
-/*
-    .bg_d4b6c5,
-    .directoryContainer_da3f59:before,
-    .header_bd05f1:before {
-        background: url("https://raw.githubusercontent.com/Nian0bussou/discord-theme/main/_10710cdadd80d8a4f6b42345da1239ec34133.jpg") no-repeat center center fixed;
-        background-size: cover;
-    }
-*/
-
 .nameAndDecorators_d808b0,
 .username_f9f2ca {
     font-size: 1.1em;
-    font-family: "KaiTi";
+    font-family: "Klee One";
 }
 
 .appMount_ea7e65 {
