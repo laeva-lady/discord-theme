@@ -104,7 +104,7 @@
 
 body {
     /* font-family: "Noto Sans JP"; */
-    font-family: "Courier New";
+    font-family: "Courier New", "Klee One";
     background: rgba(0, 0, 0, 0);
     background: url("https://raw.githubusercontent.com/Nian0bussou/discord-theme/main/_10710cdadd80d8a4f6b42345da1239ec34133.jpg") center/cover no-repeat !important;
     background-size: cover !important;
